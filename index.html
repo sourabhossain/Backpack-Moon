@@ -6,13 +6,38 @@
     
     <title>Shoes</title>
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     
-    <h1>Hello World!</h1>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+              <a class="navbar-brand" href="index.html">
+                  <img src="images/logo.png" alt="logo">
+              </a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <div class="d-flex">
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">Product</a>
+                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </nav>
+    </header>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
