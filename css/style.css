@@ -10,7 +10,8 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    background: #f8f9fa
+    background: #f8f9fa;
+    color: #3E3E3E;
 }
 
 header,
@@ -20,6 +21,10 @@ nav {
 
 nav img {
     width: 40%;
+}
+
+section {
+    padding: 80px 0;
 }
 
 .banner h1 {
@@ -35,11 +40,56 @@ nav img {
 }
 
 .bottom {
-    background: #3643C0;
-    color: #ffffff;
-    padding: 12px 20px;
+    background: rgb(54, 67, 192);
+    color: rgb(255, 255, 255);
+    padding: 14px 30px;
 }
 
 .bottom:hover {
     color: #ffffffbb;
+}
+
+#casual-shoes h2 {
+    color: #363958;
+    font-weight: 400;
+    font-size: 48px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 20px 0;
+}
+
+#casual-shoes img {
+    background: #F1F1F1;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#casual-shoes .card {
+    padding: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+#casual-shoes .card-footer {
+    border-top: 0px solid rgba(0,0,0,.125);
+    background: #ffffff;
+}
+
+#casual-shoes .card-title {
+    color: #363958;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#casual-shoes .card-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#casual-shoes .card-footer span {
+    color: #FA804C;
+    font-weight: 700;
+    font-size: 36px;
 }
