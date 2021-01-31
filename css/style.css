@@ -49,6 +49,7 @@ section {
     color: #ffffffbb;
 }
 
+#formal-shoes h2,
 #casual-shoes h2 {
     color: #363958;
     font-weight: 400;
@@ -71,11 +72,13 @@ section {
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
 }
 
+#formal-shoes .card-footer,
 #casual-shoes .card-footer {
     border-top: 0px solid rgba(0,0,0,.125);
     background: #ffffff;
 }
 
+#formal-shoes .card-title,
 #casual-shoes .card-title {
     color: #363958;
     font-size: 24px;
@@ -83,13 +86,20 @@ section {
     font-style: normal;
 }
 
+#formal-shoes .card-footer,
 #casual-shoes .card-footer {
     display: flex;
     justify-content: space-between;
 }
 
+#formal-shoes .card-footer span,
 #casual-shoes .card-footer span {
     color: #FA804C;
     font-weight: 700;
     font-size: 36px;
+}
+
+#formal-shoes .card {
+    padding: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
 }
